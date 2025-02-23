@@ -12,7 +12,7 @@
 score = input("Enter Score:")
 scorefloat = float(score)
 if scorefloat > 1 or scorefloat < 0 :
-    print("Out of range, pidor")
+    print("Out of range, pidor!")
 elif scorefloat >= 0.9 :
     print("A")
 elif scorefloat >= 0.8 :
