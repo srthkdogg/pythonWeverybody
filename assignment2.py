@@ -1,4 +1,4 @@
-# This first line is provided for you
+# This first line is provided 
 hrs = float(input("Enter Hours:"))
 rate = float(input("Enter Rate:"))
 thepay = rate*hrs
