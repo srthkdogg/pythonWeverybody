@@ -14,8 +14,8 @@ def computepay(h,r) :
     if h > 40 :
         return 40 * r + (h-40)*1.5*r
     elif h < 0 :
-        print("Entered hours is wrong")
+        print("Entered hours is wrong!")
     else :
         return h * r
 p = computepay(h, r)
-print("Pay",p)
+print("Pay:",p)
